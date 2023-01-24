@@ -1,0 +1,15 @@
+name: NoCommand
+version: 1.0-SNAPSHOT
+main: rindong.plugin.nocommand.nocommand.NoCommand
+authors: [Rindong]
+commands:
+  nocommand:
+    description: 主指令
+
+permissions:
+  nocommand.bypass:
+    description: 无视命令拦截
+    default: op
+  nocommand.admin:
+    description: 管理命令
+    default: op

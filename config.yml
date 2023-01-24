@@ -1,0 +1,12 @@
+#禁用的指令，只要输入的指令中含有这部分字符串即拦截。例如禁止“mv”玩家输入/mv xxxxxx或者/xxxx mv都会被拦截
+#除非拥有nocommand.bypass权限
+commands:
+  - "mv"
+  - "stop"
+
+#指令：禁止的世界，*表示全部禁用
+mv:
+  - "*"
+
+stop:
+  - "*"

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="nocommand">
+    <output-path>$PROJECT_DIR$/../../allOut</output-path>
+    <root id="archive" name="nocommand.jar">
+      <element id="module-output" name="NoCommand" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>
